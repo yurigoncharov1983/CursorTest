@@ -27,6 +27,7 @@ function initGame() {
     renderBoard();
 }
 
+
 function createBoard(rows, cols, mines) {
     const board = Array.from({ length: rows }, () => Array(cols).fill(0));
     let placed = 0;
