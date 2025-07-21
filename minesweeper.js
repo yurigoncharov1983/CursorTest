@@ -14,6 +14,7 @@ let rows = 9;
 let cols = 9;
 let mines = 10;
 
+
 function initGame() {
     rows = parseInt(rowsInput.value);
     cols = parseInt(colsInput.value);
